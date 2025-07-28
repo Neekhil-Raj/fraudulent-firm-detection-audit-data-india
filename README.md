@@ -93,11 +93,19 @@ Top contributing features included audit-paras, loss-value records, firm reputat
 - Matplotlib, Seaborn, SHAP
 - Jupyter Notebook, Google Colab
 
+## Future Work
+
+Time-based modeling of fraud risk
+Integration with real-time audit systems
+Dashboard development for auditor usage
+Ensemble or deep learning methods for improved accuracy
+
 ## Installation
 
 To run this project locally:
-
 ```bash
 git clone https://github.com/yourusername/fraudulent-firm-detection-audit-data-india.git
 cd fraudulent-firm-detection-audit-data-india
 pip install -r requirements.txt
+
+
