@@ -72,9 +72,9 @@ audit_risk_classifier/
 ├── requirements.txt
 └── README.md
 
+```
 
-````
-
+```
 ---
 
 ## Approach
@@ -128,8 +128,8 @@ audit_risk_classifier/
 git clone https://github.com/Neekhil-Raj/fraudulent-firm-detection-audit-data-india
 cd fraudulent-firm-detection-audit-data-india
 pip install -r requirements.txt
-````
-
+```
+```
 ---
 
 ##  Future Enhancements
