@@ -1,13 +1,13 @@
 ```markdown
 # 🕵️ Fraudulent Firm Detection Using Audit Data (India, 2015–2016)
 
-## 📌 Overview
+## Overview
 
 This project focuses on building a machine learning classification model to identify potentially **fraudulent firms** using one year of non-confidential audit data (2015–2016) sourced from the **Auditor Office of India**. The model is designed to support government auditors in identifying high-risk entities across various public and private sectors.
 
 ---
 
-## 📊 Dataset Description
+## Dataset Description
 
 The dataset includes audit records of firms spanning multiple sectors, with each record containing features extracted from:
 
@@ -21,7 +21,7 @@ The dataset includes audit records of firms spanning multiple sectors, with each
 
 These features were shortlisted based on expert interviews with auditors, and their presence was estimated using historical and current audit records.
 
-### 🔢 Sector-Wise Distribution of Firms
+### Sector-Wise Distribution of Firms
 
 | Sector                 | Number of Firms |
 |------------------------|-----------------|
@@ -42,7 +42,7 @@ These features were shortlisted based on expert interviews with auditors, and th
 
 ---
 
-## 🧠 Problem Statement
+## Problem Statement
 
 > **Given the features extracted from an audit report, predict whether a firm is fraudulent or not.**
 
@@ -50,7 +50,7 @@ This is a **binary classification** task, where the model outputs `fraudulent` o
 
 ---
 
-## ⚙️ Project Structure
+##  Project Structure
 
 ```
 ```
@@ -77,7 +77,7 @@ audit_risk_classifier/
 
 ---
 
-## 🔍 Approach
+## Approach
 
 1. **Data Preprocessing**
    - Handling missing values
@@ -101,7 +101,7 @@ audit_risk_classifier/
 
 ---
 
-## 📈 Results
+## Results
 
 - Best model: `Random Forest`
 - ROC-AUC: `0.92`
@@ -114,7 +114,7 @@ audit_risk_classifier/
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - **Language**: Python 3.x  
 - **Libraries**: Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn, SHAP  
@@ -122,7 +122,7 @@ audit_risk_classifier/
 
 ---
 
-## 📎 Installation
+## Installation
 
 ```bash
 git clone https://github.com/Neekhil-Raj/fraudulent-firm-detection-audit-data-india
@@ -132,7 +132,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 * Incorporate time-series risk trends
 * Experiment with ensemble models and deep learning
