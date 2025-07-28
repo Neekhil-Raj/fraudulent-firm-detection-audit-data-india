@@ -1,7 +1,3 @@
-Here’s a professional and well-structured `README.md` for your GitHub project:
-
----
-
 ```markdown
 # 🕵️ Fraudulent Firm Detection Using Audit Data (India, 2015–2016)
 
@@ -57,7 +53,7 @@ This is a **binary classification** task, where the model outputs `fraudulent` o
 ## ⚙️ Project Structure
 
 ```
-
+```
 audit_risk_classifier/
 ├── data/
 │   └── risk_factors.csv
@@ -141,17 +137,3 @@ pip install -r requirements.txt
 * Incorporate time-series risk trends
 * Experiment with ensemble models and deep learning
 * Add real-time flagging API for auditor usage
-
----
-
-## 🤝 Acknowledgements
-
-This project is inspired by real-world audit practices and data made available by the **Auditor Office of India**. Special thanks to auditors and domain experts for providing insights into risk factors.
-
----
-
-## 📬 Contact
-
-For questions, suggestions, or collaborations:
-
-```
